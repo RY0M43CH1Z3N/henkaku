@@ -108,7 +108,7 @@ static int load_config_user(void) {
         } else {
           LOG("config version too old");
         }*/
-				return 0;
+        return 0;
       } else {
         LOG("config incorrect magic: %x", config.magic);
       }
